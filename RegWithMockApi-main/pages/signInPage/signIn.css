@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: #a89191;
+
+}
+
+.newSignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.newSignUp__inner {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.newSignUp__inner form {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newSignUp__inner form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.newSignUp__inner form p {
+    font-size: 1em;
+}
+
+.newSignUp__inner form p a {
+    font-size: 1em;
+    margin-left: 10px;
+    color: #FFA500; /* Orange color */
+    font-weight: bold;
+}
+
+.newSignUp__inner form input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+
+
+.newSignUp__inner form button {
+    margin-top: 20px;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.newSignUp__inner form button:hover {
+    background-color: #FF8C00;
+}
+
+.error, .error-border {
+    border: 2px solid red;
+}
+
+.error-border {
+    border-width: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .newSignUp__inner form {
+        padding: 10px;
+    }
+
+    .newSignUp__inner form h2 {
+        font-size: 1.2em;
+    }
+
+    .newSignUp__inner form p,
+    .newSignUp__inner form p a,
+    .newSignUp__inner form input {
+        font-size: 0.8em;
+    }
+}
+.video{
+    width: 100%;
+}
+video{
+
+    position: absolute;
+}

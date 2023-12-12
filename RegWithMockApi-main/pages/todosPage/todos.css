@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../images/1.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.wrapper {
+    margin-top: 80px;
+}
+
+.card-title {
+    margin-left: 15px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.card-body {
+    width: 100%;
+    max-width: 1000px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 50px;
+    background: RGBA(255, 165, 0, 0.7);
+    margin-top: 10px;
+    border: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+.form-group {
+    height: 90px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 40px;
+
+}
+#addTxt{
+    margin-top: 40px;
+}
+#addTxt,
+#addTitle {
+    width: 100%;
+    max-width: 1000px;
+    height: 40px;
+    font-size: 25px;
+    background: RGBA(255, 165, 0, 0.7);
+    opacity: 0.7;
+    color: #fff;
+    padding-left: 15px;
+}
+
+#addBtn {
+    margin-top: 10px;
+    border: 2px solid #000;
+}
+
+#exit {
+    border: 2px solid #000;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#notes {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card-info {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    background: RGBA(255, 165, 0, 0.7);
+
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-title {
+        margin-left: 0;
+    }
+
+    #exit {
+        margin-left: 80%;
+    }
+
+    .card-info {
+        max-width: 100%;
+    }
+}
+
+.delete {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background: #FFA500;
+    border: 2px solid black;
+}
+
+.change {
+    position: absolute;
+    left: 110px;
+    bottom: 5px;
+    border: 2px solid black;
+
+}
+
+.wins {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid black;
+
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="todos.css">
+    <link rel="stylesheet" href="../../styles/_vars.css">
+    <link rel="stylesheet" href="../../styles/core.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="title">Добро пожаловать в Список задач </h1>
+        <div class="card radius" >
+            <div class="card-body ">
+                <h5 class="card-title">Добавить заметку</h5>
+                <div class="form-group">
+                    <input id="addTxt" placeholder="Добавить тему заметки"  required >
+                    <input id="addTitle" placeholder="Что нужно сделать">
+                    <button  class="Button" id="addBtn">Добавить заметку</button>
+
+                </div>
+                <button  class="Button" id="exit">Выйти</button>
+            </div>
+        </div>
+    <h1 class="margin"> Ваши заметки</h1>
+    <hr>
+    <label for="filter">Фильтр:</label>
+    <select id="filter">
+        <option value="all">Все задачи</option>
+        <option value="completed">Выполненные</option>
+        <option value="incomplete">Невыполненные</option>
+    </select>
+
+    <div id="notes" class="row container-fluid">
+
+    </div>
+</div>
+
+</body>
+<script src="../../js/todos.js"></script>
+</html>
